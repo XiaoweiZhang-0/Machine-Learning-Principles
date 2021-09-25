@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+
+%%%%%%%%%%%%%%%%%
+% header.tex contains things like packages and newcommands.
+%%%%%%%%%%%%%%%%%
+\input{header}
+
+%%%%%%%%%%%%%%%%%
+% command for submission,  do not change
+%%%%%%%%%%%%%%%%%
+\newcommand{\myinfo}[3]{
+  #1%
+  \footnote{
+    NetID: \texttt{#2},\;
+    Email: \texttt{#3}
+}}
+\newcommand{\homeworkinfo}[3]{
+  \vspace{-0.5cm}
+  Problem Set #1%
+  \footnote{
+    Due: \texttt{#2},\;
+    Student(s) worked with: \texttt{#3}
+  }
+  \vspace{-0.1cm}}
+
+%%%%%%%%%%%%%%%%%
+% title
+%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%
+% change this: should be same for every homework
+\author{\myinfo{Your Name}{Your NetID}{Your Email}}
+
+% change this: should be different for EVERY homework
+\title{\homeworkinfo{1}{September 23, 2021}{Collaborators}}
+%%%%%%%%%
+
+\date{}
+
+\begin{document}
+\maketitle
+\lhead{CS 461: Machine Learning Principles}
+\rhead{Fall 2021}
+\thispagestyle{fancy}
+
+%%%%%%%%%%%%%%%%%
+% main
+%%%%%%%%%%%%%%%%%
+
+
+
+% delete this part for your homework
+\textbf{Instruction}
+\begin{itemize}
+\item To compile a \LaTeX file, you can use either the \texttt{pdflatex} command on your local machine or online tools like
+  \href{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}{Overleaf}.
+  If you're new to \LaTeX make some effort to learn how to use it properly especially regarding math environments like \href{https://www.overleaf.com/learn/latex/Aligning_equations_with_amsmath}{align}.
+\item Create a new blank file (e.g., \texttt{hw1.tex}). Copy \ul{\textbf{hw-template.tex}} into it. Don't change on this file directly, as you might want to reuse it.
+\item Delete this instruction part.
+\item Change the author info: name, email, netid.
+\item Change the homework info: name, due date, and students you worked with for this homework.
+\item For the coding part, you need to write your own code.
+\item When you finish your homework, download the pdf, and rename it before submitting to Canvas: \texttt{firstname-lastname-sol1.pdf}.
+\item The supplemented \ul{\textbf{header.tex}} includes some useful packages and commands that make it easy to write things
+  like $\expected{x \sim p}{-\log p(x)}$. Feel free to modify and define your own commands.
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%
+\section*{Problem 1}
+
+
+%%%%%%%%%%%%%%%%%
+\section*{Problem 2}
+
+
+%%%%%%%%%%%%%%%%%
+\section*{Problem 3}
+
+
+%%%%%%%%%%%%%%%%%
+% end
+%%%%%%%%%%%%%%%%%
+\end{document}
