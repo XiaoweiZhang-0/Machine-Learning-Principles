@@ -26,3 +26,10 @@ Overview: Apply decision tree and boosting method to the problem of determining 
 2.Fit the model with highest accuracy on the spam dataset trying various hyperparameter settings
 3.Applied adaboost algorithm to a shallow decision to boost its performance and find the best model with the spam dataset.
 ```
+## Homework 5
+Overview: Apply GMM(Gauassian Mixture Models) in a generative classifier with expectation maximization algorithm to classify images into ten Fashion MNIST classes.
+```
+1.Computed gaussian log probability, mean initialization, parameter update, and accuracy calculation functions for diagonal and non-diagonal matrices.
+2.Fit a single GMM and a mixture of 3 GMMs for each class and find the hyperparameters with highest validation accuracy.
+3.plot the trend of the training accuracy and validation accuracy for these GMMs with different hyperparameters.
+```
