@@ -11,25 +11,25 @@ Overview: apply polynomial regression method to Boston Housing dataset to predic
 3. Compared the model trained with symmetric function and the one trained with asymmetric function
 ```
 
-## Homework 3
-Overview: Apply SVM to analyze the sentiments of tweets regarding US airline service quality. 
+## Homework 3 Twitter Sentiment Analysis
+Overview: Applied SVM to analyze the sentiments of tweets regarding US airline service quality. 
 ```
 
-1.Completed Linear SVM classifier and Kernelized SVM classifier (with kernelized Pegasos algorithm) to fit linear data and nonlinear data separately
-2.Applied linear SVM classifier and Kernel SVM classfier to twitter dataset and find the best model with highest test accuracy
+1.Implemented a linear SVM classifier and kernelized SVM classifier (with kernelized Pegasos algorithm) to fit linear data and nonlinear data separately
+2.Trained the linear SVM classifier and Kernel SVM classifier with tweets training dataset, tuned on the validation dataset, and found the model with the highest accuracy to 85%
 ```
 
-## Homework 4
-Overview: Apply decision tree and boosting method to the problem of determining whether an email is spam or not
+## Homework 4 Spam Detection
+Overview: Applied decision tree and boosting method to determine whether an email is spam or not
 ```
-1.Completed decision tree with Gini impurity using fit stump algorithm.
+1.Completed decision tree with Gini impurity using fit stump algorithm
 2.Fit the model with highest accuracy on the spam dataset trying various hyperparameter settings
-3.Applied adaboost algorithm to a shallow decision to boost its performance and find the best model with the spam dataset.
+3.Applied adaboost algorithm to a shallow decision to boost its performance and find the best model with the spam dataset
 ```
-## Homework 5
-Overview: Apply GMM(Gauassian Mixture Models) in a generative classifier with expectation maximization algorithm to classify images into ten Fashion MNIST classes.
+## Homework 5 Image classification
+Overview: Applied GMM(Gauassian Mixture Models) in a generative classifier with expectation maximization algorithm to classify images into ten Fashion MNIST classes
 ```
-1.Computed gaussian log probability, mean initialization, parameter update, and accuracy calculation functions for diagonal and non-diagonal matrices.
-2.Fit a single GMM and a mixture of 3 GMMs for each class and find the hyperparameters with highest validation accuracy.
-3.plot the trend of the training accuracy and validation accuracy for these GMMs with different hyperparameters.
+1.Computed gaussian log probability, mean initialization, parameter update, and accuracy calculation functions for diagonal and non-diagonal matrices
+2.Fit a single GMM and a mixture of 3 GMMs for each class and find the hyperparameters with highest validation accuracy
+3.Plotted the trend of the training accuracy and validation accuracy for these GMMs with different hyperparameters
 ```
